@@ -34,6 +34,9 @@
     </nav>
 
     <section id="home" class="hero">
+        <video autoplay muted loop playsinline class="background-video">
+            <source src="images/logo.mp4" type="video/mp4">
+        </video>
         <div class="hero-content">
             <h1 class="animate-text">Hi, I'm <span class="highlight">Joshua Dykes</span></h1>
             <p class="animate-text-delay">Mechanical Engineer & Content Creator</p>
@@ -174,6 +177,12 @@
         </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        (function() {
+            emailjs.init("o_TKkpqeqyggSvqYZ");
+        })();
+    </script>
     <script src="script.js"></script>
 </body>
 </html>
